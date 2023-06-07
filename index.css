@@ -1,0 +1,119 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 0px;   
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo {
+    max-width: 100%;
+    height: auto;
+}
+
+.lateralIzq {
+    float: left;
+    width: 25%;
+    padding: 10;
+    margin-top: 120px;
+    
+}
+
+.tablaProfesores {
+    float: right;
+    width: 75%;
+}
+
+#profesores {
+    width: 100%;
+}
+
+#profesores img {
+    border-radius: 50%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .lateralIzq {
+        width: 100%;
+    }
+}
+
+.menuVertical {
+    margin-top: 10px;
+}
+
+.menuVertical a {
+    display: block;
+    color: white;
+    background-color: #4CAF50;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 10px;    
+}
+
+.menuVertical a:hover {
+    background-color: #555;
+}
+
+
+.subtitulo {
+    clear: left;
+}
+
+
+
+#profesores td, #profesores th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 100px;
+}
+
+#profesores tr:nth-child(even){background-color: #f2f2f2;}
+
+#profesores tr:hover {background-color: #ddd;}
+
+#profesores th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.contenidoExtra {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contenidoExtra h3 {
+    font-size: 24px;
+}
+
+.contenidoExtra img {
+    width: 150px;
+}

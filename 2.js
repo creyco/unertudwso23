@@ -7,8 +7,7 @@ img.forEach((imgs) => {
     const val = imgs.getAttribute("data-value");
     win.classList.add("open");
 
-    fullImg.src = `img/${val}.png`;
-
+    fullImg.src = `img/u${val}.png`;   
 
   });
 });

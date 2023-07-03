@@ -51,3 +51,8 @@ body{
         width: 80%;
     }
 }
+
+.full-img:hover {
+    cursor: zoom-in;
+  }
+  

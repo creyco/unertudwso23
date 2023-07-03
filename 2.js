@@ -17,3 +17,11 @@ window.addEventListener("click", (e) => {
     win.classList.remove("open");
   }
 });
+
+fullImg.addEventListener('click', () => {
+  if (fullImg.style.transform) {
+    fullImg.style.transform = '';
+  } else {
+    fullImg.style.transform = 'scale(2)';
+  }
+});
